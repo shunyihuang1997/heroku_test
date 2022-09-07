@@ -2,6 +2,9 @@
 import numpy as np
 import pandas as pd
 import pickle
+from collections.abc import Mapping
+from collections.abc import MutableMapping
+from collections.abc import Sequence
 
 dataset = pd.read_csv('price.csv')
 
